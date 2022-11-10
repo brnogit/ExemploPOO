@@ -1,8 +1,38 @@
 ﻿using ExemploPOO.Models;
+using ExemploPOO.Interfaces;
+
+ICalculadora calc = new Calculadora();// calculadora implementa a interface ICalculadora
+Console.WriteLine(calc.Multiplicar(3, 9));
 
 
-Computador c = new Computador(); //instaciado
-Console.WriteLine(c.ToString());
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Computador c = new Computador(); //instaciado
+// Console.WriteLine(c.ToString());
 
 
 
