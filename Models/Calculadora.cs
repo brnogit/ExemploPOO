@@ -8,10 +8,6 @@ namespace ExemploPOO.Models
 {
     public class Calculadora : ICalculadora // calculadora implementa a interface ICalculadora
     {
-        public int Dividir(int num1, int num2) //implementando o metodo
-        {
-            return num1 / num2;
-        }
 
         public int Multiplicar(int num1, int num2)
         {
