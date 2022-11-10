@@ -5,8 +5,14 @@ using System.Threading.Tasks;
 
 namespace ExemploPOO.Models
 {
-    public class Conta
+    public abstract class Conta
     {
-        
+        protected decimal saldo;
+        public abstract void Creditar(decimal valor);
+
+        public void ExbirSaldo()
+        {
+            Console.WriteLine("O seu saldo é: " + saldo);
+        }
     }
 }
