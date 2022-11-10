@@ -1,3 +1,4 @@
+using System.Data.SqlTypes;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,6 +8,14 @@ namespace ExemploPOO.Models
 {
     public class Professor : Pessoa
     {
+        public Professor()
+        {
+            
+        }
+        public Professor(string nome) : base(nome) //construtor
+        {
+
+        }
         public decimal Salario { get; set; }
 
         public override void Apresentar()
