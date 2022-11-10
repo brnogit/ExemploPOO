@@ -9,10 +9,11 @@ namespace ExemploPOO.Models
     {
         public string Nome { get; set; } // atributos
         public int Idade { get; set; }
+        public string Email { get; set; }
 
         public void Apresentar() //metodo-ação
         {
-            Console.WriteLine($"Olá, meu nome é {Nome} e tenho {Idade} anos!");
+            Console.WriteLine($"Olá, meu nome é {Nome} e tenho {Idade} anos! E meu email é {Email}");
         }
     }
 }

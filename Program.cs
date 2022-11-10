@@ -1,10 +1,47 @@
 ﻿using ExemploPOO.Models;
 
-ContaCorrente c1 = new ContaCorrente(123, 1000);
+Aluno a1 = new Aluno(); // instanciado objeto a1
+a1.Nome = "Bruno";
+a1.Idade = 20;
+a1.Email = "teste@teste.com";
+a1.Nota = 10;
+a1.Apresentar();
 
-c1.ExbirSaldo();
-c1.Sacar(5000);
-c1.ExbirSaldo();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ContaCorrente c1 = new ContaCorrente(123, 1000);
+
+// c1.ExbirSaldo();
+// c1.Sacar(5000);
+// c1.ExbirSaldo();
 
 
 
