@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ExemploPOO.Models
 {
-    public sealed class Professor : Pessoa // classe selada, não permite ninguem herdar dela
+    public class Professor : Pessoa // classe selada, não permite ninguem herdar dela
     {
         public Professor()
         {
@@ -18,7 +18,7 @@ namespace ExemploPOO.Models
         }
         public decimal Salario { get; set; }
 
-        public override void Apresentar()
+        public sealed override void Apresentar()
         {
             Console.WriteLine($"Olá, meu nome é {Nome}, tenho {Idade} anos, sou um professor e ganho {Salario}");
         }
